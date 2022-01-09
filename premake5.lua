@@ -3,7 +3,7 @@ project "yaml-cpp"
     language "C++"
 
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
-    objdir ("bin/" .. outputdir .. "/%prj.name")
+    objdir ("bin/" .. outputdir .. "/%{prj.name}")
 
     files
     {
